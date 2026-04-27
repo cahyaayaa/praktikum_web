@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image & tabel</title>
+</head>
+<body>
+    <h3>===========Daftar Barang============</h3>
+    <style> table{width: 50; margin-top: 50px ;}
+         td{ padding: 20px; text-align: center ;}
+    </style>
+    <table border="1">
+        <caption>Tabel Harga Produk</caption>
+    <tr>
+        <th>Kode Produk</th>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+        <th>Gambar</th>
+    </tr>
+    <tr>
+        <th>P001</th>
+        <th>Kipas Angin</th>
+        <th>400.000</th>
+        <th><img src="kipas_angin.jpeg" width="145" heigth="150"></th>
+    </tr>
+    <tr>
+        <th>P002</th>
+        <th>Lemari Es</th>
+        <th>1.700.000</th>
+        <th><img src="kulkas.jpeg" width="145" heigth="150"></th>
+    </tr>
+    <tr>
+        <th>P003</th>
+        <th>Mesin Cuci</th>
+        <th>2.000.000</th>
+        <th><img src="mesin cuci.jpeg" width="145" heigth="150"></th>
+    </tr>
+    </table>
+
+    <table border ="1">
+        <caption>Latihan Tabel 1</caption>
+    <tr>
+        <th>Kode Produk</th>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+    </tr> 
+    <tr>
+        <td>P001</td>
+        <td colspan ="2"> kipas_angin </td>
+    </tr> 
+    <tr>
+        <td rowspan = "2" >P002 </td>
+        <td>kulkas</td>
+        <td>1.700.000</td>
+    </tr> 
+    <tr>
+        <td>mesin cuci</td>
+        <td>2.000.000</td>
+    </tr> 
+    </table> 
+
+    <table border ="1">
+        <caption>Latihan Tabel 2</caption>
+    <tr>
+        <th>Kode Produk</th>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+    </tr> 
+    <tr>
+        <td>P001</td>
+        <td>kipas_angin</td>
+        <td rowspan = "3"> 400.000</td>
+    </tr> 
+    <tr>
+        <td>P002</td>
+        <td>kulkas</td>
+    </tr> 
+    <tr>
+        <td>P003</td>
+        <td>mesin cuci</td>
+    </tr> 
+    <table border ="1">
+        <caption>Latihan Tabel 3</caption>
+    <tr>
+        <th>Kode Produk</th>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+    </tr> 
+    <tr>
+        <td>P001</td>
+        <td>kipas_angin</td>
+        <td> 400.000</td>
+    </tr> 
+    <tr>
+        <td colspan="3" >kulkas</td>
+    </tr> 
+    <tr>
+        <td>P003</td>
+        <td>mesin cuci</td>
+        <td>2.000.000</td>
+    </tr> 
+
+    <table border ="1">
+        <caption>Latihan Tabel 4</caption>
+    <tr>
+        <th>Kode Produk</th>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+    </tr> 
+    <tr>
+        <td>P001</td>
+        <td>kipas_angin</td>
+        <td> 400.000</td>
+    </tr> 
+    <tr>
+        <td>P002 </td>
+        <td>kulkas</td>
+        <td>1.700.000</td>
+    </tr> 
+    <tr>
+        <td colspan="3" >mesin cuci</td>
+    </tr> 
+
+    <table border ="1">
+        <caption>Latihan Tabel 5</caption>
+    
+    <tr>
+        <th rowspan="2" style="width:20%"></th>
+        <th rowspan="3" style="width:20%"></th>
+        <th style="width :20%; height:40px;"></th>
+    </tr> 
+    <tr style="height: 150px;">
+        <td rowspan="2"></td>
+    </tr> 
+    <tr style="height: 20px;">
+        <td></td>
+    </tr> 
+    
+    </table>
+</body>
+</html>
