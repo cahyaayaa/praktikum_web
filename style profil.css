@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eee;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: #bfbfbf;
+    padding: 25px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.header{
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.Biodata{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.label{
+    width: 150px;
+    font-weight: bold;
+}
+
+.titik{
+    width: 20px;
+    text-align: center;
+}
+
+.value {
+    flex: 1;
+}
+
+footer{
+    background: #b78;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.profile-section{
+    display: flex;
+    gap: 30px;
+}
+
+.info{
+    width: 100%;
+}
+
+.header-info{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.btn-back{
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(213, 98, 98);
+    cursor: pointer;
+}
+
+.btn-back:hover{
+    background-color: #d9d9d9;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between; /* kiri - tengah - kanan */
+    align-items: center;
+    background-color: #754141; /* sesuaikan sama punyamu */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    flex: 1;
+}
+
+.btn-back, .btn-next {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(179, 88, 88);
+    cursor: pointer;
+}
+
+.btn-back:hover, .btn-next:hover {
+    background-color: #ddd;
+}
