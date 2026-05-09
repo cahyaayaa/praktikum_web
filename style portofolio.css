@@ -1,0 +1,79 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(135deg, #f8e1e7, #e0f0ff);
+    margin: 0;
+    padding: 30px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #7b2cbf;
+    font-size: 35px;
+}
+
+.card{
+    background: white;
+    padding: 20px 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+a{
+    color: #a64ac9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.dua-kolom{
+    display: flex;
+    gap: 40px;
+}
+
+.dua-kolom ol{
+    flex:  1;
+}
+
+.modul-box{
+    position: relative;
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.btn-back{
+    margin-top: 20px;
+
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7b2cbf;
+    cursor: pointer;
+}
+
+.btn-back:hover{
+    background-color: #ddd;
+}
